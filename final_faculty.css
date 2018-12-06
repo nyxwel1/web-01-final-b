@@ -1,0 +1,89 @@
+@font-face {
+  font-family:"Gotham-Bold";
+  src:url("./assets/fonts/Gotham-Bold.otf");
+}
+@font-face {
+  font-family:"Gotham-Medium";
+  src:url("./assets/fonts/Gotham-Medium.otf");
+}
+@font-face {
+  font-family:"Avenir";
+  src:url("./assets/fonts/Avenir.otf");
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gotham-Bold";
+}
+.nav_left a,
+.nav_right a{
+  text-decoration: none;
+  margin-top: 40px;
+}
+.nav_left{
+  color:black;
+  text-align: center;
+  margin: .5em;
+  padding: 5px;
+  width: 45px;
+  background-color: #F7CE3E;
+}
+.nav_right a{
+  color:white;
+  padding: 3px 20px 5px 20px;
+  background-color: #1a2930;
+}
+.nav_right {
+    max-width: 75%;
+    margin-top: .5rem;
+    font-size: .666rem;
+}
+.nav_right a.active{
+  background-color: #F7CE3E;
+}
+ #mag_glass img{
+   vertical-align: middle;
+  height: 1rem;
+}
+#mag_glass{
+  padding: 3px 5px 5px 5px;
+  margin-right: .5rem
+}
+header{
+  background-image:url(./assets/images/15.png);
+  background-color: #888;
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  min-height: 50vh;
+  min-width: 720px;
+   }
+header h1{
+  font-family: "Gotham-Medium";
+  color:white;
+  position: absolute;
+  left: 45%;
+}
+header p{
+  top:18vh;
+  font-family: "Avenir";
+  color:white;
+  position: absolute;
+  text-align: center;
+}
+footer{
+  font-family:"Gotham-Medium";
+  text-align:center;
+  color:white;
+  background-color:#1a2930;
+}
+footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.fcolumn{
+  float: left;
+  width:33%;
+}

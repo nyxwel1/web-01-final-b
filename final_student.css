@@ -1,0 +1,419 @@
+@font-face {
+  font-family:"Gotham-Bold";
+  src:url("./assets/fonts/Gotham-Bold.otf");
+}
+@font-face {
+  font-family:"Gotham-Medium";
+  src:url("./assets/fonts/Gotham-Medium.otf");
+}
+@font-face {
+  font-family:"Avenir";
+  src:url("./assets/fonts/Avenir.otf");
+}
+
+nav{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  font-family: "Gotham-Bold";
+  margin-top: .5rem;
+}
+.nav_left a,
+.nav_right a{
+  text-decoration: none;
+  margin-top: 40px;
+}
+.nav_left{
+  color:black;
+  text-align: center;
+  margin: .5em;
+  padding: 5px;
+  width: 45px;
+  background-color: #F7CE3E;
+}
+.nav_right a{
+  color:white;
+  padding: 3px 20px 5px 20px;
+  background-color: #1a2930;
+}
+.nav_right {
+    margin-top: .5rem;
+    font-size: .9rem;
+}
+.nav_right a.active{
+  background-color: #F7CE3E;}
+ #mag_glass img{
+   vertical-align: middle;
+  height: 1rem;
+}
+#mag_glass{
+  padding: 3px 5px 5px 5px;
+  margin-right: .5rem
+}
+header{
+  background-image:url(./assets/images/16.png);
+  background-color: #888;
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  min-height: 50vh;
+  min-width: 720px;
+   }
+header h1{
+  font-family: "Gotham-Medium";
+  color: #F7CE3E;
+  position: absolute;
+  left: 45%;
+}
+header p{
+  top:18vh;
+  font-family: "Avenir";
+  color:#F7CE3E;
+  position: absolute;
+  text-align: center;
+}
+#students {
+  text-transform: uppercase;
+  margin-bottom: .5%;
+  margin-top: -7%;
+  font-size: 400%;
+  font-family: "gotham-bold", sans-serif;
+}
+
+#student-p {
+  font-size: 110%;
+  margin-top: 4%;
+  word-spacing: 3px;
+  font-family: "avenir", avenir;
+  opacity: .6;
+}
+
+.whole-lauren {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10vh;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin: 2% 1% 2% 1%;
+}
+
+#lauren-picture {
+  background-image: url("assets/images/5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+}
+
+.lauren-content{
+  margin-left: -10px;
+  margin-right: 10px;
+
+}
+
+#lauren-title {
+  text-transform: uppercase;
+  font-size: 200%;
+  font-family: "avenir", avenir;
+}
+
+#lauren-description {
+  font-size: 150%;
+   font-family: "gotham-bold", sans-serif;
+}
+
+#lauren-quote {
+ font-size: 100%;
+ padding-right: 10px;
+ font-family: "gotham-medium", sans-serif;
+}
+
+/******chad********/
+
+.whole-chad {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10vh;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin: 2% 1% 2% 1%;
+}
+
+#chad-picture {
+  background-image: url("assets/images/17.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.chad-content{
+  margin-left: -10px;
+  margin-right: 10px;
+
+}
+
+#chad-title {
+  text-transform: uppercase;
+  font-size: 200%;
+   font-family: "avenir", avenir;
+}
+
+#chad-description {
+  font-size: 150%;
+  font-family: "gotham-bold", sans-serif;
+}
+
+#chad-quote {
+ font-size: 100%;
+ padding-right: 10px;
+ font-family: "gotham-medium", sans-serif;
+}
+
+.whole-sarah {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10vh;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin: 2% 1% 2% 1%;
+}
+
+#sarah-picture {
+  background-image: url("assets/images/18.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.sarah-content{
+  margin-left: -10px;
+  margin-right: 10px;
+
+}
+
+#sarah-title {
+  text-transform: uppercase;
+  font-size: 200%;
+   font-family: "avenir", avenir;
+}
+
+#sarah-description {
+  font-size: 150%;
+  font-family: "gotham-bold", sans-serif;
+}
+
+#sarah-quote {
+ font-size: 100%;
+ padding-right: 10px;
+ font-family: "gotham-medium", sans-serif;
+}
+
+
+.whole-logan{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10vh;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin: 2% 1% 2% 1%;
+}
+
+#logan-picture {
+  background-image: url("assets/images/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.logan-content{
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+#logan-title {
+  text-transform: uppercase;
+  font-size: 200%;
+  font-family: "avenir", avenir;
+}
+
+#logan-description {
+  font-size: 150%;
+  font-family: "gotham-bold", sans-serif;
+}
+
+#logan-quote {
+ font-size: 100%;
+ padding-right: 10px;
+ font-family: "gotham-medium", sans-serif;
+}
+
+.alumni{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+height: 500px;
+grid-gap: 10px;
+margin-bottom: 40px;
+}
+
+#image1 {
+ background-color: #1a2930;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+ grid-column-start: 1;
+ grid-column-end: 1;
+ grid-row-start: 1;
+ grid-row-end: 3;
+ color: white;
+ text-transform: uppercase;
+ font-size: 25px;
+ padding: 80px 20px 20px 20px;
+ text-align: center;
+ font-family: "gotham-medium", sans-serif;
+}
+
+#notable-alumni {
+text-transform: uppercase;
+margin-bottom: 25px;
+}
+
+#where-now {
+  border-top: solid #F7CE3E 10px;
+  padding-top: 25px;
+}
+
+
+#image2 {
+ background-image: url("assets/images/4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+ grid-column-start: 2;
+ grid-column-end: 2;
+ grid-row-start: 1;
+ grid-row-end: 1;
+ display: flex;
+ justify-content: flex-end;
+}
+
+#alumni-colors1 {
+text-transform: uppercase;
+text-align: center;
+margin-top: -0px;
+padding: 7px;
+font-size: 15px;
+height: 20px;
+width: 140px;
+bottom: 15px;
+background-color: lightgrey;
+font-family: "gotham-bold", sans-serif;
+}
+
+#image3 {
+ background-image: url("assets/images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+ grid-column-start: 2;
+ grid-column-end: 2;
+ grid-row-start: 2;
+ grid-row-end: 2;
+display: flex;
+justify-content: flex-end;
+font-family: "gotham-bold", sans-serif;
+}
+
+#alumni-colors2{
+text-transform: uppercase;
+text-align: center;
+margin-top: -0px;
+padding: 7px;
+font-size: 15px;
+height: 20px;
+width: 140px;
+bottom: 15px;
+background-color: #F7CE3E;
+}
+
+#image4 {
+ background-image: url("assets/images/9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+ grid-column-start: 3;
+ grid-column-end: 3;
+ grid-row-start: 1;
+ grid-row-end: 1;
+display: flex;
+justify-content: flex-end;
+}
+
+#alumni-colors3 {
+text-transform: uppercase;
+text-align: center;
+margin-top: -0px;
+padding: 7px;
+font-size: 15px;
+height: 20px;
+width: 140px;
+bottom: 15px;
+background-color: #F7CE3E;
+font-family: "gotham-bold", sans-serif;
+}
+
+#image5 {
+ background-image: url("assets/images/10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+ grid-column-start: 3;
+ grid-column-end: 3;
+ grid-row-start: 2;
+ grid-row-end: 2;
+display: flex;
+justify-content: flex-end;
+}
+
+#alumni-colors4{
+text-transform: uppercase;
+text-align: center;
+margin-top: -0px;
+padding: 7px;
+font-size: 15px;
+height: 20px;
+width: 140px;
+bottom: 15px;
+background-color: lightgrey;
+font-family: "gotham-bold", sans-serif;
+}
+
+footer{
+  font-family:"Gotham-Medium";
+  text-align:center;
+  color:white;
+  background-color:#1a2930;
+}
+footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.fcolumn{
+  float: left;
+  width:33%;
+}
